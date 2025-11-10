@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/favicon.png" type="image/png">
+    <title>PPDB SDN GAYAM 5 SUKOHARJO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="asset/logo-sd.png" alt="Logo SDN GAYAM 5" width="32" height="32" class="me-2"> SDN GAYAM 5
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link fw-bold text-warning" href="ppdb.html">PPDB</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header bg-warning">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-dark">PPDB 2024/2025</h1>
+            <p class="lead text-dark">Penerimaan Peserta Didik Baru Tahun Ajaran 2024/2025</p>
+        </div>
+    </div>
+
+    <!-- Info Penting -->
+    <section class="py-5">
+        <div class="container">
+            <div class="alert alert-warning border-warning" role="alert">
+                <h4 class="alert-heading"><i class="bi bi-exclamation-triangle-fill me-2"></i>Informasi Penting</h4>
+                <p class="mb-0">Pendaftaran PPDB Tahun Ajaran 2024/2025 dibuka mulai <strong>1 Juni - 30 Juni 2024</strong>. Pastikan Anda melengkapi semua persyaratan dan mengisi formulir dengan benar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jadwal & Kuota -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary"><i class="bi bi-calendar-check-fill me-2"></i>Jadwal Penting</h3>
+                            <hr>
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Pendaftaran Online</strong></td>
+                                        <td>1 - 30 Juni 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Verifikasi Berkas</strong></td>
+                                        <td>3 - 5 Juli 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Pengumuman</strong></td>
+                                        <td>10 Juli 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Daftar Ulang</strong></td>
+                                        <td>11 - 15 Juli 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Hari Pertama Masuk</strong></td>
+                                        <td>15 Juli 2024</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary"><i class="bi bi-people-fill me-2"></i>Kuota Penerimaan</h3>
+                            <hr>
+                            <div class="mb-4">
+                                <h5>Total Kuota: <span class="badge bg-primary fs-5">120 Siswa</span></h5>
+                            </div>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Jalur</th>
+                                        <th>Kuota</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Zonasi</td>
+                                        <td><span class="badge bg-success">80 Siswa</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prestasi</td>
+                                        <td><span class="badge bg-info">20 Siswa</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Perpindahan Orang Tua</td>
+                                        <td><span class="badge bg-warning">10 Siswa</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Afirmasi</td>
+                                        <td><span class="badge bg-danger">10 Siswa</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Persyaratan -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5"><i class="bi bi-file-earmark-check-fill text-primary me-2"></i>Persyaratan Pendaftaran</h2>
+            <div class="accordion" id="persyaratanAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#persyaratanUmum">
+                            <i class="bi bi-1-circle-fill text-primary me-2"></i>Persyaratan Umum
+                        </button>
+                    </h2>
+                    <div id="persyaratanUmum" class="accordion-collapse collapse show" data-bs-parent="#persyaratanAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Berusia minimal 6 tahun pada tanggal 1 Juli 2024</li>
+                                <li>Fotocopy Akta Kelahiran (2 lembar)</li>
+                                <li>Fotocopy Kartu Keluarga (2 lembar)</li>
+                                <li>Fotocopy KTP Orang Tua (2 lembar)</li>
+                                <li>Pas foto ukuran 3x4 (4 lembar, background merah)</li>
+                                <li>Surat Keterangan Sehat dari Dokter</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jalurZonasi">
+                            <i class="bi bi-2-circle-fill text-success me-2"></i>Jalur Zonasi
+                        </button>
+                    </h2>
+                    <div id="jalurZonasi" class="accordion-collapse collapse" data-bs-parent="#persyaratanAccordion">
+                        <div class="accordion-body">
+                            <p><strong>Persyaratan tambahan:</strong></p>
+                            <ul>
+                                <li>Surat Keterangan Domisili dari RT/RW</li>
+                                <li>Bukti kepemilikan rumah (fotocopy PBB atau surat kontrak)</li>
+                                <li>Jarak rumah maksimal 2 km dari sekolah</li>
+                            </ul>
+                            <p class="text-muted"><em>Prioritas diberikan kepada calon siswa yang berdomisili paling dekat dengan sekolah.</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jalurPrestasi">
+                            <i class="bi bi-3-circle-fill text-info me-2"></i>Jalur Prestasi
+                        </button>
+                    </h2>
+                    <div id="jalurPrestasi" class="accordion-collapse collapse" data-bs-parent="#persyaratanAccordion">
+                        <div class="accordion-body">
+                            <p><strong>Persyaratan tambahan:</strong></p>
+                            <ul>
+                                <li>Fotocopy Sertifikat/Piagam Prestasi (minimal tingkat kabupaten)</li>
+                                <li>Surat Rekomendasi dari sekolah asal (untuk prestasi akademik)</li>
+                                <li>Prestasi maksimal 3 tahun terakhir</li>
+                            </ul>
+                            <p><strong>Jenis prestasi yang diakui:</strong></p>
+                            <ul>
+                                <li>Prestasi akademik (olimpiade, lomba cerdas cermat, dll)</li>
+                                <li>Prestasi olahraga (juara kompetisi tingkat kabupaten/provinsi/nasional)</li>
+                                <li>Prestasi seni dan budaya (lomba seni, festival, dll)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jalurPindah">
+                            <i class="bi bi-4-circle-fill text-warning me-2"></i>Jalur Perpindahan Orang Tua
+                        </button>
+                    </h2>
+                    <div id="jalurPindah" class="accordion-collapse collapse" data-bs-parent="#persyaratanAccordion">
+                        <div class="accordion-body">
+                            <p><strong>Persyaratan tambahan:</strong></p>
+                            <ul>
+                                <li>Surat Keterangan Pindah Tugas dari instansi/perusahaan</li>
+                                <li>Surat Keterangan Domisili baru dari RT/RW</li>
+                                <li>Fotocopy SK Mutasi/Penugasan (untuk PNS/TNI/POLRI)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jalurAfirmasi">
+                            <i class="bi bi-5-circle-fill text-danger me-2"></i>Jalur Afirmasi
+                        </button>
+                    </h2>
+                    <div id="jalurAfirmasi" class="accordion-collapse collapse" data-bs-parent="#persyaratanAccordion">
+                        <div class="accordion-body">
+                            <p><strong>Persyaratan tambahan:</strong></p>
+                            <ul>
+                                <li>Surat Keterangan Tidak Mampu (SKTM) dari Kelurahan</li>
+                                <li>Fotocopy Kartu Keluarga Sejahtera (KKS) atau Kartu Indonesia Pintar (KIP)</li>
+                                <li>Surat Keterangan dari Dinas Sosial (jika ada)</li>
+                            </ul>
+                            <p class="text-muted"><em>Jalur ini diperuntukkan bagi keluarga kurang mampu dan anak berkebutuhan khusus.</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alur Pendaftaran -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5"><i class="bi bi-diagram-3-fill text-primary me-2"></i>Alur Pendaftaran</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <div class="step-number">1</div>
+                            <h5 class="card-title">Pendaftaran Online</h5>
+                            <p class="card-text">Isi formulir pendaftaran online di website ini dengan lengkap dan benar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <div class="step-number">2</div>
+                            <h5 class="card-title">Verifikasi Berkas</h5>
+                            <p class="card-text">Datang ke sekolah untuk verifikasi berkas sesuai jadwal yang ditentukan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <div class="step-number">3</div>
+                            <h5 class="card-title">Pengumuman</h5>
+                            <p class="card-text">Cek pengumuman hasil seleksi di website atau datang langsung ke sekolah</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <div class="step-number">4</div>
+                            <h5 class="card-title">Daftar Ulang</h5>
+                            <p class="card-text">Lakukan daftar ulang dengan membawa berkas asli dan biaya administrasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulir Pendaftaran -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5"><i class="bi bi-pencil-square text-primary me-2"></i>Formulir Pendaftaran Online</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow">
+                        <div class="card-body p-4">
+                            <form id="ppdbForm">
+                                <h4 class="mb-4">Data Calon Siswa</h4>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="namaLengkap" class="form-label">Nama Lengkap <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="namaLengkap" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="nikSiswa" class="form-label">NIK <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="nikSiswa" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="tempatLahir" class="form-label">Tempat Lahir <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="tempatLahir" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="tanggalLahir" class="form-label">Tanggal Lahir <span class="text-danger">*</span></label>
+                                        <input type="date" class="form-control" id="tanggalLahir" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="jenisKelamin" class="form-label">Jenis Kelamin <span class="text-danger">*</span></label>
+                                        <select class="form-select" id="jenisKelamin" required>
+                                            <option value="">Pilih...</option>
+                                            <option value="Laki-laki">Laki-laki</option>
+                                            <option value="Perempuan">Perempuan</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="agama" class="form-label">Agama <span class="text-danger">*</span></label>
+                                        <select class="form-select" id="agama" required>
+                                            <option value="">Pilih...</option>
+                                            <option value="Islam">Islam</option>
+                                            <option value="Kristen">Kristen</option>
+                                            <option value="Katolik">Katolik</option>
+                                            <option value="Hindu">Hindu</option>
+                                            <option value="Buddha">Buddha</option>
+                                            <option value="Konghucu">Konghucu</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="alamat" class="form-label">Alamat Lengkap <span class="text-danger">*</span></label>
+                                    <textarea class="form-control" id="alamat" rows="3" required></textarea>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="rt" class="form-label">RT <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="rt" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="rw" class="form-label">RW <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="rw" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="kelurahan" class="form-label">Kelurahan <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="kelurahan" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="kecamatan" class="form-label">Kecamatan <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="kecamatan" required>
+                                    </div>
+                                </div>
+
+                                <hr class="my-4">
+
+                                <h4 class="mb-4">Data Orang Tua/Wali</h4>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="namaAyah" class="form-label">Nama Ayah <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="namaAyah" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="pekerjaanAyah" class="form-label">Pekerjaan Ayah <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="pekerjaanAyah" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="namaIbu" class="form-label">Nama Ibu <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="namaIbu" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="pekerjaanIbu" class="form-label">Pekerjaan Ibu <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="pekerjaanIbu" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="noTelepon" class="form-label">No. Telepon/HP <span class="text-danger">*</span></label>
+                                        <input type="tel" class="form-control" id="noTelepon" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                </div>
+
+                                <hr class="my-4">
+
+                                <h4 class="mb-4">Jalur Pendaftaran</h4>
+                                <div class="mb-3">
+                                    <label for="jalurPendaftaran" class="form-label">Pilih Jalur Pendaftaran <span class="text-danger">*</span></label>
+                                    <select class="form-select" id="jalurPendaftaran" required>
+                                        <option value="">Pilih...</option>
+                                        <option value="Zonasi">Zonasi</option>
+                                        <option value="Prestasi">Prestasi</option>
+                                        <option value="Perpindahan">Perpindahan Orang Tua</option>
+                                        <option value="Afirmasi">Afirmasi</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="keterangan" class="form-label">Keterangan Tambahan</label>
+                                    <textarea class="form-control" id="keterangan" rows="3" placeholder="Tuliskan informasi tambahan jika ada (prestasi, kondisi khusus, dll)"></textarea>
+                                </div>
+
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" id="persetujuan" required>
+                                    <label class="form-check-label" for="persetujuan">
+                                        Saya menyatakan bahwa data yang saya isi adalah benar dan dapat dipertanggungjawabkan. <span class="text-danger">*</span>
+                                    </label>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="bi bi-send-fill me-2"></i>Kirim Pendaftaran
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak PPDB -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h4 class="mb-3"><i class="bi bi-question-circle-fill text-primary me-2"></i>Butuh Bantuan?</h4>
+                    <p>Jika Anda memiliki pertanyaan seputar PPDB, silakan hubungi kami:</p>
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-md-4 mb-3">
+                            <i class="bi bi-telephone-fill text-primary fs-3"></i>
+                            <p class="mb-0 mt-2"><strong>Telepon</strong></p>
+                            <p>(0271) 123456</p>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <i class="bi bi-whatsapp text-success fs-3"></i>
+                            <p class="mb-0 mt-2"><strong>WhatsApp</strong></p>
+                            <p>0812-3456-7890</p>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <i class="bi bi-envelope-fill text-danger fs-3"></i>
+                            <p class="mb-0 mt-2"><strong>Email</strong></p>
+                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a4d4d4c0c6e4d7c0cac3c5ddc5c9918ad7c7cc8acdc0">[email&#160;protected]</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5><i class="bi bi-mortarboard-fill me-2"></i>SDN GAYAM 5 SUKOHARJO</h5>
+                    <p class="small">Membentuk generasi cerdas, berkarakter, dan berprestasi untuk masa depan Indonesia yang lebih baik.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Kontak</h5>
+                    <p class="small mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Jl. Raya Gayam No. 123, Sukoharjo</p>
+                    <p class="small mb-1"><i class="bi bi-telephone-fill me-2"></i>(0271) 123456</p>
+                    <p class="small mb-1"><i class="bi bi-envelope-fill me-2"></i><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="88e1e6eee7c8fbece6efe9f1e9e5bda6fbebe0a6e1ec">[email&#160;protected]</a></p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Tautan Cepat</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="profil.html" class="text-white text-decoration-none">Profil Sekolah</a></li>
+                        <li><a href="ppdb.html" class="text-white text-decoration-none">PPDB</a></li>
+                        <li><a href="berita.html" class="text-white text-decoration-none">Berita</a></li>
+                        <li><a href="kontak.html" class="text-white text-decoration-none">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <div class="text-center small">
+                <p class="mb-0">&copy; 2024 SDN GAYAM 5 SUKOHARJO. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
